@@ -1,0 +1,31 @@
+{
+  "add_emp": {
+    "username": "阿里巴巴马云",
+    "password": "13475967398",
+    "http_code": 200,
+    "success": true,
+    "code": 10000,
+    "message": "操作成功"
+  },
+  "query_emp": {
+    "http_code": 200,
+    "success": true,
+    "code": 10000,
+    "message": "操作成功"
+  },
+  "modify_emp": {
+    "modify_data": {
+      "username": "阿里巴巴马云爸爸"
+    },
+    "http_code": 200,
+    "success": true,
+    "code": 10000,
+    "message": "操作成功"
+  },
+  "delete_emp": {
+    "http_code": 200,
+    "success": true,
+    "code": 10000,
+    "message": "操作成功"
+  }
+}
