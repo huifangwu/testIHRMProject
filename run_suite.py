@@ -9,7 +9,6 @@ suite = unittest.TestSuite()
 suite.addTest(unittest.makeSuite(TestLoginParams))
 suite.addTest(unittest.makeSuite(TestEmpParams))
 
-file = app.BASE_DIR + '/report/ihrm_login_{}.html'.format(time.strftime('%Y%m%d%H%M%S'))
-
+file = app.BASE_DIR + '/report/ihrm.html'
 with open(file, 'wb')as f:
     HTMLTestRunner(stream=f, title='ihrm登录接口、操作员工接口的测试报告', description='谷歌执行').run(suite)
